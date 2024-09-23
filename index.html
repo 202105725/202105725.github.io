@@ -1,1 +1,136 @@
-"hello world" 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Personal Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .hero {
+      height: 100vh;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)),
+        url('https://source.unsplash.com/random/1600x900') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      width: 60%;
+      line-height: 1.5;
+    }
+
+    .socials {
+      margin-top: 20px;
+    }
+
+    .socials a {
+      color: white;
+      font-size: 24px;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .contact {
+      background-color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .contact h2 {
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+      color: #333;
+    }
+
+    .contact p {
+      margin-bottom: 30px;
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    .contact a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .contact a:hover {
+      background-color: #ffcc00;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <div>
+      <h1>Hi, I'm [Your Name]</h1>
+      <p>A passionate computer science student specializing in [your area of interest]. Let's explore the world of code, algorithms, and innovation!</p>
+      <div class="socials">
+        <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Let's Connect!</h2>
+    <p>Feel free to reach out for collaborations, projects, or just to say hi!</p>
+    <a href="mailto:your.email@example.com">Email Me</a>
+  </section>
+
+</body>
+
+</html>
